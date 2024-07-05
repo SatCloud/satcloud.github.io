@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Display:ital,wght@0,100..900;1,100..900&family=Noto+Sans+Mono:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap");
+
+$font-header: "Noto Serif", "Bitter", "Ubuntu", Georgia, serif;
+$font-body: "Noto Sans", "Rubic", "Poppins", "Hel­vetica", Arial, sans-serif;
+$font-code: "Noto Sans Mono", SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+$font-tagline: $font-header;
+$nav-font: $font-body;
+// $font-header: serif;
+// $font-body: serif;
+// $font-code: serif;
+// $font-tagline: $font-body;
+// $nav-font: $font-body;

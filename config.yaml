@@ -42,7 +42,7 @@ Params:
   #   - delight is the light version of osprey-delight
   #   - dedark is the dark version of "delight"
   #   - origin is the legacy version (similar to https://github.com/tomanistor/osprey)
-  theme: "dedark"
+  theme: "technetium"
 
   # tagline (followed by a cursor) is shown at the top, below the logo
   #tagline: "Welcome!"
@@ -53,7 +53,7 @@ Params:
   # enforceSinglePage will enforce redirection to the baseURL for all sub-directories/-pages.
   #   Example: If you create about.md, Hugo will also create a '/about/index.html' which might not be what you want for a *single* page site. 
   #   If this switch is enabled, all these "orphan" files will contain only a redirect directive.
-  enforceSinglePage: false
+  enforceSinglePage: true
 
   # copyright flag generates a copyright notice in footer of your site.
   copyright: true
@@ -107,27 +107,28 @@ Params:
       resize: "600x"
 
     Gallery:
-      resize: "600x"
+      resize: "1920x"
+      resizeLQIP: "256x"
 
     Background:
       resize: "1920x"
       resizeLQIP: "256x"
 
   # Advanced configuration for lazyimg module (comment out if needed):
-  # lazyimg:
-  #   resizer: auto
-  #   renderer: lqip-webp
+  lazyimg:
+    resizer: auto
+    renderer: lqip-webp
 
-  #   # Resizer options:
-  #   lqipSize: "120x Gaussian"
-  #   maxSize: "1920x"
-  #   responsiveSizes: ["320x", "640x", "768x", "1024x", "1366x", "1600x", "1920x"]
-  #   resizeOptions: "Lanczos q95"
+    # Resizer options:
+    lqipSize: "120x Gaussian"
+    maxSize: "1920x"
+    responsiveSizes: ["320x", "640x", "768x", "1024x", "1366x", "1600x", "1920x"]
+    resizeOptions: "Lanczos q95"
 
-  #   # Renderer options:
-  #   #class: ""
-  #   #alt: ""
-  #   noscript: true
+    # Renderer options:
+    #class: ""
+    #alt: ""
+    noscript: true
       
 
 ## Menu items are automatically added to navbar.
@@ -150,7 +151,7 @@ Menu:
       url: "/#oos"
       weight: 3
     - name: "Consulting"
-      identifier: consulting
+      identifier: gallery
       url: "/#consulting"
       weight: 4
     # - name: "Blog"
