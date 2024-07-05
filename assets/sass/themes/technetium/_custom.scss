@@ -28,3 +28,17 @@ nav {
 .home-logo { 
   animation: scale-in-center .8s cubic-bezier(.25, .46, .45, .94) both;
 }
+
+.gallery {
+  .gallery-item {
+    overflow: hidden; // Add this line to hide any overflowing content
+  }
+  .gallery-img-container {
+    width: 150%;
+
+    img {
+      padding: 0; // Remove the padding
+      object-fit: cover; // Add this line to make the image cover the entire container
+    }
+  }
+}
