@@ -146,9 +146,9 @@ Menu:
       identifier: satcloud
       url: "/#satcloud"
       weight: 2
-    - name: "OOS"
-      identifier: oos
-      url: "/#oos"
+    - name: "SatSwarm"
+      identifier: satswarm
+      url: "/#satswarm"
       weight: 3
     - name: "Consulting"
       identifier: gallery
