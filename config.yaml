@@ -23,7 +23,7 @@ Params:
   description: "Technetium Engineering Main Site"
 
   # logoBig appears at the top of the page. Use a path relative to the assets dir for auto-resizing. 
-  logoBig: "images/cropped_logo.png"
+  logoBig: "logos/cropped_logo.png"
 
   # logoSmall is the logo that will be shown in the left corner of the nav bar.
   #   Use a path relative to the assets dir for auto-resizing.
