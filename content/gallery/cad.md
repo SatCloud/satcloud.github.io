@@ -10,7 +10,7 @@ title: "Design and Manufacturing"
 #   You can use 'weight' to order (primarily) for more control (sometimes it makes sense to put old items before new ones).
 #   The specifics are documented here: https://gohugo.io/templates/lists/#order-content
 # [str] Gallery image file from the assets directory. 
-image: "images/cad.jpg"
+image: "images/design.jpeg"
 # [str] Alternative (image) description.
 alt: ""
 # [css] Optional background color of the gallery item (if omitted, will use theme's fallback).
