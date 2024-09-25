@@ -23,11 +23,11 @@ Params:
   description: "Technetium Engineering Main Site"
 
   # logoBig appears at the top of the page. Use a path relative to the assets dir for auto-resizing. 
-  logoBig: "logo2_inverted.png"
+  logoBig: "images/cropped_logo.png"
 
   # logoSmall is the logo that will be shown in the left corner of the nav bar.
   #   Use a path relative to the assets dir for auto-resizing.
-  logoSmall: "logo2_inverted.png"
+  logoSmall: "logos/small_logo.png"
   
   # background can optionally be specified as an image layer behind logoBig at the top of the page (parallax effect).
   background: "images/earth.jpg"
@@ -36,7 +36,7 @@ Params:
   opengraphImage: "/images/osprey-delight.png"
 
   # favicon of the site (e.g. smaller version of logoSmall).
-  favicon: "favicon.png"
+  favicon: "logos/new_favicon.png"
 
   # theme your site by choosing one of the themes under assets/sass/themes:
   #   - delight is the light version of osprey-delight
