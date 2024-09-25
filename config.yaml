@@ -30,7 +30,7 @@ Params:
   logoSmall: "logo2_inverted.png"
   
   # background can optionally be specified as an image layer behind logoBig at the top of the page (parallax effect).
-  background: "space.png"
+  background: "images/earth.jpg"
   
   # opengraphImage specifies the image that is shown when previewing the site in a messenger or Google Search.
   opengraphImage: "/images/osprey-delight.png"
